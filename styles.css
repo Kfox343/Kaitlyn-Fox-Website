@@ -1,0 +1,167 @@
+/* 1) Add to Reset 
+  margin:0;
+  padding:0;
+*/
+/* 2) body - background-color: *your pick* */
+/* 3) body - font-family: *you pick* ;
+/* 4) section - margin-bottom: 2rem */
+/* 5) nav - margin-bottom: 1rem */
+/* 6) .nav-list li - margin-right: 2rem;
+/* 7).intro-section - text-align: center; */
+/* 8) .projects-section - padding: 1rem 0;
+/* 9) .project-card - margin-bottom: 1rem;
+/* 10) .project-section h2 -text-align: center;
+
+/* RESET */
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:rgb(191, 176, 207);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Indie Flower', cursive;
+}
+.img-1{
+  width: 400px;
+  border: 5px solid rgb(225, 214, 247);
+}
+.img-1:hover{
+  width: 400px;
+  border: 6px solid rgb(129, 105, 179);
+}
+.wrapper {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+nav {
+  top: 0;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-family: 'Indie Flower', cursive;
+  position: fixed;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgb(225, 214, 247);
+}
+.nav-list {
+  list-style: none;
+  display:flex;
+  font-size: 1.5rem;
+  
+}
+.nav-list li {
+  margin-right: 2rem;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: #313313;
+}
+
+.intro-section {
+  /*min-height: 50vh;*/
+  padding-top: 5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.project-section h2 {
+  text-align: center;
+}
+
+.project-section {
+  text-align: center;
+  padding:3rem;
+ 
+}
+.project-card {
+  margin-bottom: 1rem;
+}
+.project-section h2 {
+font-size: 3rem;
+}
+.about-section {
+ margin-bottom: 1rem;
+ padding:3rem;
+font-size: 1.5rem;
+}
+
+.about-section h2 {
+  text-align: center;
+}
+
+.about-section img {
+  margin: 0 auto;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.contact-section {
+  padding:3rem;
+}
+.contact-section h2 {
+  text-align: center;
+  
+}
+
+.nav-list a:hover {
+  color: rgb(79, 37, 231);
+}
+.photos {
+  display: flex;
+  gap:1rem;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.img-2{
+  height:250px;
+  
+}
+.img-3{
+  height:300px;
+}
+.otherworld h2{
+  text-align: center;
+  font-size: 3rem;
+}
+.beginning{
+  text-align: center;
+}
+.pokedex h2{
+  text-align: center;
+  font-size: 3rem;
+}
+.project-card:hover {
+  transform: scale(1.05);
+ 
+}
+
+@media screen and (min-width:576px){
+  body{
+    display:grid;
+    grid-row: column;
+    flex-direction: column;
+  }
+  
+}
+@media screen and (max-width:576px){
+  body{
+    display: flexbox;
+    flex: 1fr 1fr 1fr;
+    grid-row: column;
+    flex-direction: column;
+  }
+  
+}
