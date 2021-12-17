@@ -26,12 +26,22 @@ body {
   font-family: 'Indie Flower', cursive;
 }
 .img-1{
-  width: 400px;
+ 
   border: 5px solid rgb(225, 214, 247);
+    display: block;
+    max-height:400px;
+    max-width: 100%;
+    height: auto;
+}
+.replace{
+  width: 50px;
 }
 .img-1:hover{
-  width: 400px;
+  width: 650px;
   border: 6px solid rgb(129, 105, 179);
+}
+.wrapper2{
+  padding:2rem;
 }
 .wrapper {
   padding: 2rem;
@@ -51,6 +61,8 @@ nav {
   justify-content: space-between;
   padding: 1rem;
   background-color: rgb(225, 214, 247);
+  border-radius: 25px;
+  z-index: 9999;
 }
 .nav-list {
   list-style: none;
@@ -68,9 +80,18 @@ nav {
 
 .intro-section {
   /*min-height: 50vh;*/
-  padding-top: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   text-align: center;
   font-size: 2rem;
+  color: aliceblue;
+  background-image: url("replace/1324653.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  
+  
+  border:rgb(129, 105, 179);
 }
 .project-section h2 {
   text-align: center;
@@ -83,6 +104,7 @@ nav {
 }
 .project-card {
   margin-bottom: 1rem;
+  
 }
 .project-section h2 {
 font-size: 3rem;
@@ -114,7 +136,7 @@ font-size: 1.5rem;
 }
 
 .nav-list a:hover {
-  color: rgb(79, 37, 231);
+  color: rgb(129, 105, 179);
 }
 .photos {
   display: flex;
@@ -153,8 +175,8 @@ font-size: 1.5rem;
     display:grid;
     grid-row: column;
     flex-direction: column;
+    
   }
-  
 }
 @media screen and (max-width:576px){
   body{
@@ -164,4 +186,10 @@ font-size: 1.5rem;
     flex-direction: column;
   }
   
+}
+.icon{
+  height: 50px;
+}
+h1{
+  text-shadow: 2px 2px rgb(129, 105, 179);
 }
