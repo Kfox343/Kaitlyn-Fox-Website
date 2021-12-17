@@ -37,14 +37,8 @@ body {
   width: 50px;
 }
 .img-1:hover{
-  width: 650px;
+ transform: scale(1.05);
   border: 6px solid rgb(129, 105, 179);
-}
-.wrapper2{
-  padding:2rem;
-}
-.wrapper {
-  padding: 2rem;
 }
 
 section {
@@ -80,8 +74,8 @@ nav {
 
 .intro-section {
   /*min-height: 50vh;*/
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 25rem;
+  padding-bottom: 25rem;
   text-align: center;
   font-size: 2rem;
   color: aliceblue;
@@ -89,6 +83,7 @@ nav {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  background-size: 100%;
   
   
   border:rgb(129, 105, 179);
@@ -192,4 +187,15 @@ font-size: 1.5rem;
 }
 h1{
   text-shadow: 2px 2px rgb(129, 105, 179);
+}
+hr {
+  border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+h4{
+  font-size: 2rem;
+}
+.bottom{
+  text-align: center;
 }
